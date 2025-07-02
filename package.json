@@ -1,0 +1,56 @@
+{
+  "name": "react-native-colored-text",
+  "version": "1.0.0",
+  "description": "A professional React Native component for rendering text with customizable colored tags and styles.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist/",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepare": "yarn build",
+    "clean": "rm -rf dist",
+    "prebuild": "yarn clean"
+  },
+  "keywords": [
+    "react-native",
+    "colored-text",
+    "text-styling",
+    "tags",
+    "typescript",
+    "component",
+    "ui",
+    "formatting"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/durmusun/react-native-colored-text.git"
+  },
+  "homepage": "https://github.com/durmusun/react-native-colored-text#readme",
+  "bugs": {
+    "url": "https://github.com/durmusun/react-native-colored-text/issues"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "author": {
+    "name": "Durmuş Ün",
+    "email": "durmusun@gmail.com"
+  },
+  "license": "MIT",
+  "packageManager": "yarn@3.6.4",
+  "dependencies": {
+    "react": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.6",
+    "@types/react-native": "^0.72.2",
+    "typescript": "^5.0.4"
+  },
+  "resolutions": {
+    "@types/react": "^18.2.6"
+  }
+}
