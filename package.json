@@ -1,5 +1,5 @@
 {
-  "name": "react-native-colored-text",
+  "name": "@durmusun/react-native-colored-text",
   "version": "1.0.0",
   "description": "A professional React Native component for rendering text with customizable colored tags and styles.",
   "main": "src/index.ts",

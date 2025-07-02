@@ -1,12 +1,12 @@
 # React Native Colored Text
 
 ![React Native Colored Text](https://img.shields.io/badge/react--native-v0.74.1-blue.svg)
-![npm](https://img.shields.io/npm/v/react-native-colored-text.svg)
-![License](https://img.shields.io/npm/l/react-native-colored-text.svg)
+![npm](https://img.shields.io/npm/v/@durmusun/react-native-colored-text.svg)
+![License](https://img.shields.io/npm/l/@durmusun/react-native-colored-text.svg)
 
-Bring your text to life! `react-native-colored-text` is a dynamic component that allows you to easily color and style specific parts of your text content in your React Native applications using custom tags. It's time to say goodbye to boring, monochrome text!
+Bring your text to life! `@durmusun/react-native-colored-text` is a dynamic component that allows you to easily color and style specific parts of your text content in your React Native applications using custom tags. It's time to say goodbye to boring, monochrome text!
 
-## Why `react-native-colored-text`?
+## Why `@durmusun/react-native-colored-text`?
 
 - **Easy to Use:** Instantly color your texts with an intuitive and simple API.
 - **Dynamic and Flexible:** Define as many custom tags as you want and assign different styles to each.
@@ -16,9 +16,9 @@ Bring your text to life! `react-native-colored-text` is a dynamic component that
 ## Installation
 
 ```bash
-yarn add react-native-colored-text
+yarn add @durmusun/react-native-colored-text
 # or
-npm install react-native-colored-text
+npm install @durmusun/react-native-colored-text
 ```
 
 ## Usage
@@ -26,7 +26,7 @@ npm install react-native-colored-text
 Including the `ColoredText` component in your project is very easy. Here is a basic example:
 
 ```jsx
-import ColoredText from 'react-native-colored-text';
+import ColoredText from '@durmusun/react-native-colored-text';
 
 const App = () => (
   <ColoredText
