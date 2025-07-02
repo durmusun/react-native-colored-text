@@ -12,6 +12,7 @@
   "scripts": {
     "build": "tsc",
     "prepare": "yarn build",
+    "postinstall": "yarn build",
     "clean": "rm -rf dist",
     "prebuild": "yarn clean"
   },
